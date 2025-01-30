@@ -1,0 +1,589 @@
+a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Makes the link color inherit the text color */
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'MyFont'; /* Name of the font */
+    src: url('../Fonts/TIMESS__.ttf') format('truetype'); /* Path to the font file */
+}
+h1{
+    padding: 0px;
+    margin: 0px;
+}
+h2{
+    padding: 0px;
+    margin: 0px;
+
+}
+h3{
+    padding: 0px;
+    margin: 0px;
+}
+h4{
+    padding: 0px;
+    margin: 0px;
+}
+h5{
+    padding: 0px;
+    margin: 0px;
+}
+span {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Apply the custom font */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'MyFont', sans-serif; /* Use the custom font */
+    overflow-x: hidden;
+    background:#E7E7E7 
+}
+
+.menu {
+    position: absolute;
+    top: 50%; /* Adjust to move it up/down */
+    left: 10%; /* Adjust to move it left/right */
+    
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align to the left */
+    gap: 30px; /* Adjust space between items */
+    
+}
+/* Background video styling */
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+
+    z-index: -1; /* Sends video behind other content */
+}
+.title {
+    font-size: calc(7.5vw + 1vh); /* Adjust size dynamically based on viewport */
+    margin-top: calc(0vh); /* Adjust the margin-top */
+    animation: slideAway 2s ease-out forwards;
+    padding-left: 0px;
+    margin-left: calc(8vw);
+    text-overflow: hidden;
+
+}
+.stacked-name {
+    display: flex;
+    flex-direction: column; /* Stack the words vertically */
+    align-items: center; /* Center the words horizontally */
+    justify-content: center; /* Center within the container */
+    font-family: 'MyFont', Arial, sans-serif; /* Use custom font */
+    font-size: calc(3vw + 1vh); /* Adjust size dynamically based on viewport */
+    margin-left: calc(2vw);
+    position: relative;
+    margin-top: calc(6.5vw); /* Decrease the margin-top as the viewport width decreases */
+    right: 8px;
+}
+
+.contact {
+    font-size: 25px;
+
+
+}
+.container {
+    margin: 0; /* Ensure container doesn't add extra space */
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically in the viewport */
+    
+    font-family: 'MyFont', Arial, sans-serif; /* Use custom font */
+    
+}
+
+.portfolio {
+    font-size: 25px;
+
+}
+
+.about{
+    font-size: 25px;
+}
+
+
+hr {
+    border: 0; /* Removes default border */
+    background-color: #000; /* Color of the line */
+    width: 150%; /* Adjust width (percentage or pixels) */
+    position: absolute;
+    margin-top: calc(-8vw);    
+    left: 0;
+    width: 200%; /* Make the line the same width as the H1 */
+    margin-left: -600px;
+    border-top: 2px solid black; /* Thickness and color of the line */
+    overflow-x: hidden;
+}
+
+/* Style for the container to position the text */
+.slide-in {
+    font-family: Arial, sans-serif;
+    position: absolute;
+    animation: slideInFromLeft 1.7s ease-out forwards; /* Apply the animation */
+}
+
+.slide-out {
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    display: flex;
+    margin-top: -655px; /* Move the CONTACT link up */
+    animation-duration: 0.1s;
+
+    animation: slideAway 
+}
+
+/* Keyframes for the slide-in animation from the left */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%); /* Start off the screen on the left */
+    }
+    100% {
+        transform: translateX(0); /* End at its normal position */
+    }
+}
+
+/* Keyframes for the slide-in animation from the left */
+@keyframes slideAway {
+    from {
+        translate: 0 0;
+      }
+    
+      to {
+        translate: 10vw;
+      }
+}
+
+
+
+.projects-container {
+    margin: 0px;
+    display: grid;
+    width: calc(80vw);
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #d9d9d9;
+    padding: 100px;
+    border-radius: 20px;
+    gap: calc(3vw);
+    grid-auto-rows: minmax(100px, auto);
+    place-self: center;
+    position: relative; /* Allow precise positioning */
+    margin-top: calc(1vw + 1vh); /* Move the grid up by 50px */
+    
+}
+
+.project-item {
+    margin: 0px;
+    margin-top: calc(-1.75vw + 0.5vh); /* Move the grid up by 50px */
+    width: calc(33vw); /* Set the width */
+    height: calc(17vw); /* Set the height */
+    background-color: #E7E7E7; /* Light background color */
+    padding: calc(2.8vw);
+    
+    border-radius: 8px; /* Rounded corners */
+    outline: 1px solid black; /* Green outline */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.seshImg{
+    width:430px;
+    height:auto;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 16%;
+    top: 9%
+}
+.mohiImg{
+    width:440px;
+    height:auto;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 63.5%;
+    top: 9%;
+    transform: rotate(-10deg); /* Rotates the image by 10 degrees */
+}
+
+.more:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.text-container {
+    display: flex; /* Enables flexbox */
+    flex-direction: row;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically (if needed) */
+    gap: 15%; /* Adds space between items */
+    
+
+}
+
+p {
+    font-size:24px;
+    
+    font-family: 'Trebuchet MS' /* Use the custom font */
+    
+    
+}
+
+.more p{
+    position: relative;
+    width: 55px; /* Set the width */
+    height: 2px; /* Set the height */
+    background-color: #f0f0f0; /* Light background color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px; /* Rounded corners */
+    outline: 1px solid black; /* Green outline */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    margin: 0px;
+    /* Centering */
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    font-family: 'MyFont';
+    
+    margin-left: 10px;
+    bottom: calc(10px);
+    margin-top: calc(14px);
+    
+    
+    
+
+}
+
+#sesh-more{
+    margin: 0px; /* Center if the parent has defined width/height */
+    position: absolute; /* Allows you to center absolutely */
+    top: calc(24vw);
+    left: 9%;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    
+
+}
+
+#mohi-more{
+    margin: auto; /* Center if the parent has defined width/height */
+    position: absolute; /* Allows you to center absolutely */
+    top: 27%;
+    left: 55.5%;
+
+
+}
+
+#imgC-more{
+    margin: auto; /* Center if the parent has defined width/height */
+    position: absolute; /* Allows you to center absolutely */
+    top: 57.5%;
+    left: 9%;
+
+}
+
+#marble-more{
+    margin: auto; /* Center if the parent has defined width/height */
+    position: absolute; /* Alows you to center absolutely */
+    top: 57.5%;
+    left: 55.5%;
+
+}
+
+#design-more{
+    margin: auto; /* Center if the parent has defined width/height */
+    position: absolute; /* Allows you to center absolutely */
+    top: 88%;
+    left: 9%;
+
+}
+
+.stacked-item{
+    display: flex;
+    font-size: 30px;
+    flex-direction: column; /* Stack the words vertically */
+    align-items: flex-start; /* Center the words horizontally */
+    justify-content: right; /* Center within the container */
+    height: 100vh; /* Full height of the viewport (optional) */
+    align-items: right; /* Vertical centering */
+    margin: auto; /* Center if the parent has defined width/height */
+    
+
+}
+
+#sesh-title {
+    margin: auto; /* Center if the parent has defined width/height */
+    position: absolute; /* Allows you to center absolutely */
+    top: 190px;
+    left: 9%;
+
+}
+
+#mohi-title{
+    margin: auto; /* Center if the parent has defined width/height */
+    position: absolute; /* Allows you to center absolutely */
+    top: 190px;
+    left: 55.5%;
+}
+
+#imgC-title{
+    margin: auto; /* Center if the parent has defined width/height */
+    position: absolute; /* Allows you to center absolutely */
+    top: 650px;
+    left: 9%;
+
+}
+
+#marble-title{
+    margin: auto; /* Center if the parent has defined width/height */
+    position: absolute; /* Allows you to center absolutely */
+    top: 650px;
+    left: 55.5%;
+}
+
+#design-title{
+    margin: auto; /* Center if the parent has defined width/height */
+    position: absolute; /* Allows you to center absolutely */
+    top: 1075px;
+    left: 9%;
+
+}
+
+.portfolio-container{
+    width: calc(3vw); /* Set the width */
+    height: 5000px; /* Set the height */
+    background-color: #f0f0f0; /* Light background color */
+    position: absolute;
+    justify-content: center;
+    margin-left: 200px;
+    
+
+}
+
+.con-links {
+
+    
+ 
+
+    width: 100px; /* Set the width */
+    height: 2px; /* Set the height */
+    background-color: #f0f0f0; /* Light background color */
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Ensure multi-line text is centered */
+
+    border-radius: 20px; /* Rounded corners */
+    outline: 2px solid black; /* Green outline */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.con-links:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.abtMe-container{
+    display: flex; /* Enables flexbox */
+    justify-content: right; /* Center horizontally */
+    width: 40%;
+    margin-left: 50%;
+    margin-top: -100px;
+    background-color: #f0f0f0; /* Light background color */
+    border-radius: 20px;
+    padding:2%;
+    height:auto;
+    outline: 1px solid black; /* Green outline */
+
+
+}
+
+.links-container{
+    display: flex;
+    flex-direction: column; /* Stack the words vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.menu a {
+    text-decoration: none; /* Remove default underline */
+    color: black; /* Set text color */
+    font-size: 24px; /* Adjust font size */
+    transition: text-decoration 0.3s ease-in-out; /* Smooth effect */
+}
+
+.menu a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.desImg {
+    width:320px;
+    height:auto;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 21%;
+    top: 39.5%;
+    border-radius: 8px;
+}
+
+.item-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 450px;
+    gap: -5px;
+
+    background-color: #d9d9d9;
+    position: relative;
+    margin: auto;
+    margin-top: -150px;
+    padding: 10px;
+    border-radius: 20px;
+
+
+
+  
+}
+
+.text-p{
+    width: 400px;
+    padding: 20px;
+    height: auto;
+    border-radius: 8px;
+    padding-top: 41px;
+    padding-bottom: 41px;
+
+
+
+    position: relative;
+    font-size: 20px;
+    background-color: #f0f0f0; /* Light background color */
+    outline: 1px solid black ;
+
+
+
+
+}
+
+.head{
+    width: 450px;
+    position: relative;
+    border-radius: 20px;
+    
+}
+
+@media (max-width: 1010px) {
+    .projects-container {
+        grid-template-columns: repeat(1, 1fr); /* Single column for small screens */
+        width: calc(80vw);
+        height: auto; /* Set the height */
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column; 
+        margin: auto;
+        padding: 10px;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .project-item {
+        margin: 0px;
+        margin-top: calc(-1.75vw + 0.5vh); /* Move the grid up by 50px */
+        width: 350px; /* Set the width */
+        height: 200px; /* Set the height */
+        background-color: #E7E7E7; /* Light background color */
+        padding: 20px;
+        
+        
+        
+        border-radius: 8px; /* Rounded corners */
+        outline: 1px solid black; /* Green outline */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+        transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    }
+
+    #sesh-title {
+        margin: auto; /* Center if the parent has defined width/height */
+        position: absolute; /* Allows you to center absolutely */
+        top: 60px;
+        left: 20%;
+    
+    }
+    
+    #mohi-title{
+        margin: auto; /* Center if the parent has defined width/height */
+        position: absolute; /* Allows you to center absolutely */
+        top: 290px;
+        left: 20%;
+    }
+    
+    #imgC-title{
+        margin: auto; /* Center if the parent has defined width/height */
+        position: absolute; /* Allows you to center absolutely */
+        top: 650px;
+        left: 20%;
+    
+    }
+    
+    #marble-title{
+        margin: auto; /* Center if the parent has defined width/height */
+        position: absolute; /* Allows you to center absolutely */
+        top: 650px;
+        left: 20%;
+    }
+    
+    #design-title{
+        margin: auto; /* Center if the parent has defined width/height */
+        position: absolute; /* Allows you to center absolutely */
+        top: 1075px;
+        left: 20%;
+    
+    }
+
+    .seshImg{
+        width:430px;
+        height:auto;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        left: 16%;
+        top: 9%
+    }
+    .mohiImg{
+        width:440px;
+        height:auto;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        left: 63.5%;
+        top: 9%;
+        transform: rotate(-10deg); /* Rotates the image by 10 degrees */
+    }
+    
+    
+}

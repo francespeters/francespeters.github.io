@@ -1,0 +1,370 @@
+a {
+    text-decoration: none; /* Removes underline */
+    color: inherit; /* Makes the link color inherit the text color */
+}
+@font-face {
+    font-family: 'MyFont'; /* Name of the font */
+    src: url('../../Fonts/TIMESS__.ttf') format('truetype'); /* Path to the font file */
+}
+
+/* Apply the custom font */
+body {
+    font-family: 'MyFont', sans-serif; /* Use the custom font */
+    overflow-x: hidden;
+    background-color: #d9d9d9;
+}
+p{
+    font-family: 'Trebuchet MS' /* Use the custom font */
+
+}
+
+
+
+.stacked-name {
+    display: flex;
+    flex-direction: column; /* Stack the words vertically */
+    align-items: center; /* Center the words horizontally */
+    justify-content: center; /* Center within the container */
+    height: 100vh; /* Full height of the viewport (optional) */
+    font-family: 'MyFont', Arial, sans-serif; /* Use custom font */
+    font-size: 48px; /* Adjust font size */
+   
+}
+
+
+.portfolio {
+    font-size: 25px;
+
+}
+
+.about{
+    font-size: 25px;
+}
+
+.title {
+    font-size: 120px;
+    justify-content: center; /* Centers items horizontally */
+    display: flex;
+    margin-top: -275px; /* Move the CONTACT link up */
+    animation: slideAway 2s ease-out forwards;
+    text-overflow: ellipsis;
+
+}
+hr {
+    border: 0; /* Removes default border */
+    height: 1px; /* Adjust thickness */
+    background-color: #000; /* Color of the line */
+    width: 150%; /* Adjust width (percentage or pixels) */
+    
+    position: absolute;
+    top: 47%; /* Center the line vertically in the container */
+    left: 0;
+    width: 200%; /* Make the line the same width as the H1 */
+    margin-left: -600px;
+    border-top: 2px solid black; /* Thickness and color of the line */
+    overflow-x: hidden;
+}
+
+/* Style for the container to position the text */
+.slide-in {
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    display: flex;
+    margin-top: -655px; /* Move the CONTACT link up */
+
+    animation: slideInFromLeft 2s ease-out forwards; /* Apply the animation */
+}
+
+.slide-out {
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    display: flex;
+    margin-top: -655px; /* Move the CONTACT link up */
+    animation-duration: 1s;
+
+    animation: slideAway 
+}
+
+/* Keyframes for the slide-in animation from the left */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%); /* Start off the screen on the left */
+    }
+    100% {
+        transform: translateX(0); /* End at its normal position */
+    }
+}
+
+/* Keyframes for the slide-in animation from the left */
+@keyframes slideAway {
+    from {
+        translate: 0 0;
+      }
+    
+      to {
+        translate: 10vw;
+      }
+}
+
+.SESH-container {
+    
+
+    
+}
+
+
+
+.more:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+
+
+
+.more {
+    width: 55px; /* Set the width */
+    height: 2px; /* Set the height */
+    background-color: #f0f0f0; /* Light background color */
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px; /* Rounded corners */
+    outline: 2px solid black; /* Green outline */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+
+    /* Centering */
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    margin: auto; /* Center if the parent has defined width/height */
+    position: absolute; /* Allows you to center absolutely */
+    top: 23%;
+    left: 2%;
+    
+
+}
+
+
+.sesh-title {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically (if needed) */
+    gap: 200px; /* Adds space between items */
+    font-size: 40px;
+    flex-direction: column; /* Stack the words vertically */
+    padding-bottom: -10px;
+    margin-top: -75px;
+
+
+}
+
+.sesh-sub {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically (if needed) */
+    gap: 200px; /* Adds space between items */
+    font-size: 16px;
+    flex-direction: row; /* Stack the words vertically */
+    margin-top: -20px;
+
+
+
+
+}
+.info{
+    width: 1300px; /* Set a max width if needed */
+    min-height: 100px; /* Optional: Ensures a minimum height */
+    background-color: #f0f0f0; /* Light background color */
+    position: relative; /* Changed from absolute to relative */
+    justify-content: center;
+    margin-left: 55px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 20px; /* Add padding to space out content */
+    display: flex;
+    flex-direction: column; /* Stack content inside */
+    
+
+}
+.arr{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 65px;
+}
+
+.seshImg {
+    width:1000px;
+    height:auto;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imgDiv {
+    width:1000px;
+    height: 600px;
+   
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    padding-bottom: 60px;
+    border-radius: 8px; /* Rounded corners */
+
+}
+
+.overview-title{
+    font-size: 25px;
+    margin-left: 150px; /* Align with overview */
+    margin-bottom: 16px; /* Reduce space between */
+
+}
+.overview{
+    font-size: 18px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column; /* Stack items */
+    margin-left: 150px; /* Keep same alignment */
+    padding-bottom: 20px; /* Add space below */
+
+
+}
+.overview p {
+    margin: 0; /* Remove the default margin */
+    padding: 0; /* Remove any padding */
+    line-height: 1.75; /* Adjust line spacing for readability */
+}
+
+.tags{
+    font-size: 18px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column; /* Stack items */
+    margin-left: 150px; /* Keep same alignment */
+    padding-bottom: 20px; /* Add space below */
+}
+
+.tags p {
+    margin: 0; /* Remove the default margin */
+    padding: 0; /* Remove any padding */
+    line-height: 1.75; /* Adjust line spacing for readability */
+}
+
+.links{
+    font-size: 18px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column; /* Stack items */
+    margin-left: 150px; /* Keep same alignment */
+    padding-bottom: 20px; /* Add space below */
+
+}
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Aligns items vertically */
+    gap: 20px; /* Adds spacing between image and text */
+    width: 100%; /* Ensures it takes full width */
+
+}
+.imgDES {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Aligns items vertically */
+    gap: 20px; /* Adds spacing between image and text */
+    width: 500px; /* Ensures it takes full width */
+
+}
+
+
+#one {
+    margin-left: 10%;
+    margin-top: 5%;
+ 
+}
+
+
+#one-des{
+    width: 100%; /* Allows text to take up available space */
+    max-width: 400px; /* Prevents it from becoming too wide */
+    line-height: 1.5; /* Improves text readability */
+    margin-top: 40%;
+    font-size: 18px;
+    
+}
+
+
+#two {
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+#two-des{
+
+    width: 100%; /* Allows text to take up available space */
+    max-width: 400px; /* Prevents it from becoming too wide */
+    line-height: 1.5; /* Improves text readability */
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 18px;
+}
+
+
+#three {
+    margin-left: 10%;
+    margin-top: 5%;
+ 
+}
+
+
+#three-des{
+    width: 100%; /* Allows text to take up available space */
+    max-width: 400px; /* Prevents it from becoming too wide */
+    line-height: 1.5; /* Improves text readability */
+    margin-top: 20%;
+    font-size: 18px;
+   
+}
+
+#four {
+    margin-left: 10%;
+    margin-top: 10%;
+ 
+
+}
+
+#rest {
+    width: 100%; /* Allows text to take up available space */
+    max-width: 400px; /* Prevents it from becoming too wide */
+    line-height: 1.5; /* Improves text readability */
+    margin-top: 10%;
+    margin-left: 0%;
+    font-size: 18px;
+
+    
+}
+
+#five {
+    margin-left: 42.325%;
+    margin-top: 10%;
+
+}
+
+#six{
+    margin-left: 42.325%;
+    margin-top: 10%;
+
+}
+
+#seven{
+    margin-left: 42.325%;
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+

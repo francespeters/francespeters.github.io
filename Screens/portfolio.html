@@ -4,95 +4,186 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/rdr1xdd.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <Title>Frances Peters</Title>
+        <script src="../script.js" defer></script>
+
 
     </head>
 
     <body>
-        <div class="slide-in">
-            <a href="index.html">
-                <div class="stacked-name">
-                
-                    <span><a href="index.html">FRANCES</a></span>
-                    <span><a href="index.html">PETERS</a></span>
-                    
-                </div>
-            </a>
             
         </div>
         <div class="title" >
-            <h1>PORTFOLIO</h1>
-            <hr> <!-- Horizontal line -->
+            <h4>FRANCES PETERS</h4>
 
         </div>
         
 
         <div class="projects-container">
-            <div class="project-item">
-                <div class="stacked-item" id="sesh-title">
-                    <span>SESH-</span>
-                    <span>SKATE</span>
-                    <span>SPOT</span>
-                    <span>LOCATOR</span>
-                </div>
-                <div class="more" id="sesh-more">
-                    <a href="../Screens/projects/sesh.html"><p>MORE</p></a>
-                </div>
-                <div>
-                    <img class="seshImg" src="../assets/SeshPic.png" alt="Description of Image" >
-                </div>
-            </div>
+            <div class="menu-bar">
+             
+                <ul class="tabs">
+                    <li data-tab-target="#about" class="tab">About Me</li>
+                    <li data-tab-target="#portfo" class="active tab">Portfolio</li>
+                    <li data-tab-target="#res" class="tab">Resume</li>
+                </ul>
 
-            <div class="project-item">
-                <div class="stacked-item" id="mohi-title">
-                    <span>MOHAI</span>
-                    <span>MUSEUM</span>
-                    <span>MAP</span>
-                    <span>REDESIGN</span>
+                <div class="mail">
+                    <a href="mailto:petersfrances3@gmail.com">
+                        <i class="fa-regular fa-paper-plane" style="font-size: 25px;"></i>
+                    </a> 
                 </div>
-                <div class="more" id="mohi-more">
-                    <a href="../Screens/projects/mohi.html"><p>MORE</p></a>
-                </div>
-                <div>
-                    <img class="mohiImg" src="../assets/mohiimg2.png" alt="Description of Image" >
-                </div>
+                
+         
             </div>
+            <div class="tab-content">
+                <div id="about" data-tab-content>
+                    <div class="abt-con">
+                        
+            
+                            <div class="text">
+                                <p class="text-p">
+                                    Hi there, I'm Frances!<br><br>I am a second year student pursuing a combined major in Computer Science and Design at Northeastern University. I have a interest in UX/UI design and front-end development, driven by a passion for creating visually compelling and functional digital experiences. Through my coursework and personal projects, I have built the foundational skills in learning new programming languages, improving human-computer interactions, and applying design principles. In my free time you will find me skateboarding or playing Bananagrams! 
+                                  You can download my resume<strong><a href="../assets/FrancesPeters.pdf" download="Resume"> <u>here</u></a></strong>.
+                                </p>
+                                
+                            </div>
+                            <img class="me" src="../assets/me.png" draggable="false" >
+                        
+                        
+            
+                    </div>
+                
+                </div>
 
-            <div class="project-item">
-                <div class="stacked-item" id="design-title">
-                    <span>IMAGE</span>
-                    <span>COMPRESSION</span>
-                    <span>PROGRAM</span>
-                </div>
-                <div class="more" id="design-more">
-                    <a href="../Screens/projects/sesh.html"><p>MORE</p></a>
-                </div>
-            </div>
 
-            <div class="project-item">
-                <div class="stacked-item" id="marble-title">
-                    <span>MARBLE</span>
-                    <span>SOLITAIRE</span>
-                    <span>PROGRAM</span>
-                </div>
-                <div class="more" id="marble-more">
-                    <a href="../Screens/projects/sesh.html"><h5>MORE</h5></a>
-                </div>
-            </div>
+                <div id="portfo" data-tab-content class="active">
+                    <div class="project-item">
 
-            <div class="project-item">
-                <div class="stacked-item" id="imgC-title">
-                    <span>GRAPHIC</span>
-                    <span>DESIGN</span>
-                    <span>WORK</span>
+                        
+                        <div class="stacked-item" id="pro-title">
+                            <span>SESH-</span>
+                            <span>SKATE</span>
+                            <span>SPOT</span>
+                            <span>LOCATOR</span>
+                            <span><div class="more" id="sesh-more">
+                                <a href="../Screens/projects/sesh.html"><p>More</p></a>
+                            </div></span>
+                        </div>
+                        
+                        <div>
+                            <img class="seshImg" src="../assets/SeshPic.png" alt="Description of Image" >
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        
+                        <div class="stacked-item" id="pro-title">
+                            <span>MOHAI</span>
+                            <span>MUSEUM</span>
+                            <span>MAP</span>
+                            <span>REDESIGN</span>
+                            <span><div class="more" id="mohi-more">
+                            <a href="../Screens/projects/mohi.html"><p>More</p></a>
+                        </div></span>
+                        </div>
+                        
+                        <div>
+                            <img class="mohiImg" src="../assets/mohiimg2.png" alt="Description of Image" >
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="stacked-item" id="pro-title">
+                            <span>GRAPHIC</span>
+                            <span>DESIGN</span>
+                            <span>WORK</span>
+                            <span><div class="more" id="design-more">
+                            <a href="../Screens/projects/design.html"><p>More</p></a>
+                        </div></span>
+            
+                        </div>
+                        <div>
+
+                        </div>
+                        
+                        <div>
+                            <img class="desImg" src="../assets/evolve.png" alt="Description of Image" >
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="stacked-item" id="pro-title">
+                            <span>IMAGE</span>
+                            <span>COMPRESSION</span>
+                            <span>PROGRAM</span>
+                            <span><div class="more" id="imgC-more">
+                            <a href="../Screens/projects/imageC.html"><p>More</p></a>
+                        </div></span>
+                        </div>
+                        <div>
+                            <img class="desImg" src="../assets/imageC.png" alt="Description of Image" >
+                        </div>
+                        
+                    </div>
+
+                    <div class="project-item">
+                        <div class="stacked-item" id="pro-title">
+                            <span>MARBLE</span>
+                            <span>SOLITAIRE</span>
+                            <span>PROGRAM</span>
+                            <span><div class="more" id="marble-more">
+                            <a href="../Screens/projects/marble.html"><p>More</h5></p>
+                        </div></span>
+                        </div>
+                        <div>
+                        <img class="desImg" src="../assets/marble2.png" alt="Description of Image" >
+                    </div>
+                        
+                    </div>
+
+                    
+                    
+                
                 </div>
-                <div class="more" id="imgC-more">
-                    <a href="../Screens/projects/design.html"><p>MORE</p></a>
+
+                <div id="res" data-tab-content>
+                    <div class="links-container">
+                        <div>
+                            <a href="https://www.linkedin.com/in/frances-peters-northeastern"><img class="resImg" src="../assets/ResumeImg.png" alt="Resume Image" draggable="false" ></a>
+                        </div>
+
+                        <div class="just-links">
+                            <p class="con-links" id="download"><a href="../assets/FrancesPeters.pdf" download="Resume">Download</a></p>
+                        
+
+                        
+                            <a class="con-links" href="https://www.linkedin.com/in/frances-peters-northeastern" target="_blank" class="linkedin-link"> <p> LinkedIN</p></a>
+                        
+                        
+                            <a href="mailto:petersfrances3@gmail.com"><p class="con-links" id="download">Email</p></a>
+                        </div>
+                        
+                            
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
                 </div>
-                <div>
-                    <img class="desImg" src="../assets/Screenshot 2025-01-29 at 1.46.17 PM.png" alt="Description of Image" >
-                </div>
+
+
             </div>
+            
+
+
+            
+
+            
             <!-- Add more projects as needed -->
         </div>
 

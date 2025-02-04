@@ -2,90 +2,43 @@ a {
     text-decoration: none; /* Removes underline */
     color: inherit; /* Makes the link color inherit the text color */
 }
-@font-face {
-    font-family: 'MyFont'; /* Name of the font */
-    src: url('../../Fonts/TIMESS__.ttf') format('truetype'); /* Path to the font file */
+
+iframe{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width:60vw; 
+    height:40vw;
+    justify-self: center;
 }
+
 
 /* Apply the custom font */
 body {
-    font-family: 'MyFont', sans-serif; /* Use the custom font */
+    font-family: 'Helvetica'; /* Use the custom font */
     overflow-x: hidden;
-    background-color: #d9d9d9;
+    background-color: #e3e2da;
+    display: inline;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    padding: 0;
 }
 p{
-    font-family: 'Trebuchet MS' /* Use the custom font */
+    font-family: 'Helvetica' /* Use the custom font */
 
 }
 
 
 
-.stacked-name {
-    display: flex;
-    flex-direction: column; /* Stack the words vertically */
-    align-items: center; /* Center the words horizontally */
-    justify-content: center; /* Center within the container */
-    height: 100vh; /* Full height of the viewport (optional) */
-    font-family: 'MyFont', Arial, sans-serif; /* Use custom font */
-    font-size: 48px; /* Adjust font size */
-   
-}
 
 
-.portfolio {
-    font-size: 25px;
-
-}
 
 .about{
     font-size: 25px;
 }
 
-.title {
-    font-size: 120px;
-    justify-content: center; /* Centers items horizontally */
-    display: flex;
-    margin-top: -275px; /* Move the CONTACT link up */
-    animation: slideAway 2s ease-out forwards;
-    text-overflow: ellipsis;
 
-}
-hr {
-    border: 0; /* Removes default border */
-    height: 1px; /* Adjust thickness */
-    background-color: #000; /* Color of the line */
-    width: 150%; /* Adjust width (percentage or pixels) */
-    
-    position: absolute;
-    top: 47%; /* Center the line vertically in the container */
-    left: 0;
-    width: 200%; /* Make the line the same width as the H1 */
-    margin-left: -600px;
-    border-top: 2px solid black; /* Thickness and color of the line */
-    overflow-x: hidden;
-}
 
-/* Style for the container to position the text */
-.slide-in {
-    font-size: 36px;
-    font-family: Arial, sans-serif;
-    position: absolute;
-    display: flex;
-    margin-top: -655px; /* Move the CONTACT link up */
 
-    animation: slideInFromLeft 2s ease-out forwards; /* Apply the animation */
-}
-
-.slide-out {
-    font-size: 36px;
-    font-family: Arial, sans-serif;
-    position: absolute;
-    display: flex;
-    margin-top: -655px; /* Move the CONTACT link up */
-    animation-duration: 1s;
-
-    animation: slideAway 
-}
 
 /* Keyframes for the slide-in animation from the left */
 @keyframes slideInFromLeft {
@@ -108,11 +61,7 @@ hr {
       }
 }
 
-.SESH-container {
-    
 
-    
-}
 
 
 
@@ -122,33 +71,10 @@ hr {
 }
 
 
-
-
-.more {
-    width: 55px; /* Set the width */
-    height: 2px; /* Set the height */
-    background-color: #f0f0f0; /* Light background color */
-    padding: 20px;
-    text-align: center;
-    border-radius: 20px; /* Rounded corners */
-    outline: 2px solid black; /* Green outline */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
-
-    /* Centering */
-    display: flex;
-    justify-content: center; /* Horizontal centering */
-    align-items: center; /* Vertical centering */
-    margin: auto; /* Center if the parent has defined width/height */
-    position: absolute; /* Allows you to center absolutely */
-    top: 23%;
-    left: 2%;
+.mohi-title {
+    color: #373632;
+    font-family: 'HelveticaNeue-Thin';
     
-
-}
-
-
-.sesh-title {
     display: flex; /* Enables flexbox */
     justify-content: center; /* Centers items horizontally */
     align-items: center; /* Centers items vertically (if needed) */
@@ -156,12 +82,34 @@ hr {
     font-size: 40px;
     flex-direction: column; /* Stack the words vertically */
     padding-bottom: -10px;
-    margin-top: -75px;
+    margin-top: calc(0vh);
+
+    padding-left: 5rem;
+}
 
 
+.sesh-title {
+    color: #373632;
+    font-family: 'HelveticaNeue-Thin';
+    
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically (if needed) */
+    gap: 200px; /* Adds space between items */
+    font-size: 40px;
+    flex-direction: column; /* Stack the words vertically */
+    padding-bottom: -10px;
+    margin-top: calc(0vh);
+
+    padding-left: 6.5rem;
 }
 
 .sesh-sub {
+    
+    color: #373632;
+    width: 90vw;
+    align-self: center;
+    justify-self: center;
     display: flex; /* Enables flexbox */
     justify-content: center; /* Centers items horizontally */
     align-items: center; /* Centers items vertically (if needed) */
@@ -174,93 +122,197 @@ hr {
 
 
 }
+
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(80px); /* Start slightly below */
+        opacity: 0.25; /* Start visible but faded */
+    }
+    80% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+  }
+  
+  .fadeInUp-animation {
+    animation: 1.5s fadeInUp;
+  }
+
 .info{
-    width: 1300px; /* Set a max width if needed */
+    width: 89vw; /* Set a max width if needed */
     min-height: 100px; /* Optional: Ensures a minimum height */
-    background-color: #f0f0f0; /* Light background color */
+    background-color: #EEEDE9; /* Light background color */
     position: relative; /* Changed from absolute to relative */
-    justify-content: center;
-    margin-left: 55px;
     border-radius: 20px;
     margin-top: 30px;
     margin-bottom: 100px;
     padding: 20px; /* Add padding to space out content */
     display: flex;
     flex-direction: column; /* Stack content inside */
+    justify-self: center;
+    
     
 
 }
 .arr{
+    color: #373632;
+    font-family: 'HelveticaNeue-Thin';
     position: absolute;
-    margin-left: 130px;
+    margin-left: 10vw;
     margin-top: 65px;
 }
 
 .seshImg {
-    width:1000px;
-    height:auto;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
+    animation: 2s fadeInUp;
+    
+    width: 70vw; /* Adjust as needed */
+    height: auto;
+    display: block; /* Makes sure it behaves like a block element */
+    margin-left: 0vw; /* Aligns the left side of the image to the container */
+    align-self: center;
     
 }
 
+.imgMarImg{
+    animation: 2s fadeInUp;
+    width: 70vw; /* Adjust as needed */
+    height: auto;
+    display: block; /* Makes sure it behaves like a block element */
+    margin-left: 0vw; /* Aligns the left side of the image to the container */
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .imgDiv {
-    width:1000px;
-    height: 600px;
-   
-    justify-content: center;
-    align-items: center;
-    margin-left: 150px;
-    padding-bottom: 60px;
+    width: 80vw;
+    height: auto;
+    display: flex; /* Use Flexbox for centering */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
     border-radius: 8px; /* Rounded corners */
+    align-self: center;
 
 }
 
-.overview-title{
+.tags{
+    animation: 2s fadeInUp;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    width: 70vw; /* Use full width of the container (or you can use 10vw if you prefer) */
+    font-size: 18px;
+    padding-bottom: 20px; /* Add space below */
+    align-self: center;
+    
+}
+
+.tags p {
+    color: #373632;
+    margin: auto; /* Remove the default margin */
+    margin-left: 0rem;
+    padding: 0; /* Remove any padding */
+    line-height: 1.75; /* Adjust line spacing for readability */
+    
+}
+
+.body-text{
+    animation: 2s fadeInUp;
+    color: #373632;
+    width: 70vw;
+    align-self: center;
+    
+    
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.overview-title{animation: 2s fadeInUp;
+    color: #373632;
+    margin: auto;
+    align-self: center;
     font-size: 25px;
-    margin-left: 150px; /* Align with overview */
     margin-bottom: 16px; /* Reduce space between */
+    width:70vw
 
 }
 .overview{
+    color: #373632;
+    margin: auto;
+
+    align-self: left;
     font-size: 18px;
     width: 1000px;
     display: flex;
     flex-direction: column; /* Stack items */
-    margin-left: 150px; /* Keep same alignment */
     padding-bottom: 20px; /* Add space below */
 
 
 }
 .overview p {
-    margin: 0; /* Remove the default margin */
+    animation: 2s fadeInUp;
+    color: #373632;
+    margin: auto;
+    justify-self: center;
+
     padding: 0; /* Remove any padding */
     line-height: 1.75; /* Adjust line spacing for readability */
+    max-width: 100%; /* Prevent going beyond the screen */
+    word-wrap: break-word; /* Ensure long words wrap correctly */
+    width: 70vw;
+    margin-left: 0em;
 }
 
-.tags{
-    font-size: 18px;
-    width: 1000px;
-    display: flex;
-    flex-direction: column; /* Stack items */
-    margin-left: 150px; /* Keep same alignment */
-    padding-bottom: 20px; /* Add space below */
-}
 
-.tags p {
-    margin: 0; /* Remove the default margin */
+.overview2 p {
+    animation: 2s fadeInUp;
+    color: #373632;
+    margin: auto;
+    justify-self: center;
+
     padding: 0; /* Remove any padding */
     line-height: 1.75; /* Adjust line spacing for readability */
+    max-width: 100%; /* Prevent going beyond the screen */
+    word-wrap: break-word; /* Ensure long words wrap correctly */
+    width: 70vw;
+    align-self: center;
+
 }
+
+
+
+
+
+
 
 .links{
+    color: #373632;
     font-size: 18px;
     width: 1000px;
     display: flex;
     flex-direction: column; /* Stack items */
-    margin-left: 150px; /* Keep same alignment */
     padding-bottom: 20px; /* Add space below */
+    max-width: 100%; /* Prevent going beyond the screen */
+    word-wrap: break-word; /* Ensure long words wrap correctly */
+    width: 70vw;
+    left: 0em;
+
+}
+.links2{
+    animation: 2s fadeInUp;
+    color: #373632;
+    font-size: 18px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column; /* Stack items */
+    padding-top: 20px;
+    padding-bottom: 20px; /* Add space below */
+    max-width: 100%; /* Prevent going beyond the screen */
+    word-wrap: break-word; /* Ensure long words wrap correctly */
+    width: 70vw;
+    margin: auto;
 
 }
 
@@ -367,4 +419,201 @@ hr {
     margin-top: 10%;
     padding-bottom: 10%;
 }
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+    width: 100%;  /* Make it responsive */
+    height: 300px;
+    margin-top: 18rem;
+
+    
+  
+  display: flex;
+
+  align-items: center; /* Vertically center */
+  margin-bottom: 18rem;
+}
+
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  align-self: center;
+  justify-self: center;
+}
+
+.mySlides img {
+    max-width: 100%; /* Ensure the image fits within the container */
+    max-height: 100%; /* Ensure the image doesn't exceed the container height */
+    object-fit: contain; /* Maintain aspect ratio */
+    align-self: center;
+    justify-self: center;
+  }
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: -240px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media (max-width:1000px){
+    .sesh-sub {
+        width: 90vw;
+        align-self: center;
+        justify-self: center;
+        display: flex; /* Enables flexbox */
+        justify-content: center; /* Centers items horizontally */
+        align-items: center; /* Centers items vertically (if needed) */
+        gap: 0px; /* Adds space between items */
+        font-size: 16px;
+        flex-direction: column; /* Stack the words vertically */
+        margin-top: -20px;
+    
+    
+    
+    
+    }
+    .info{
+        padding-left: 10px;
+        padding-right:10px;
+    }
+
+}
+
+@media (max-width:650px){
+    .mohi-title {
+        color: #373632;
+        font-family: 'HelveticaNeue-Thin';
+        
+        display: flex; /* Enables flexbox */
+        justify-content: center; /* Centers items horizontally */
+        align-items: center; /* Centers items vertically (if needed) */
+        gap: 200px; /* Adds space between items */
+        font-size: 40px;
+        flex-direction: column; /* Stack the words vertically */
+        padding-bottom: -10px;
+        margin-top: calc(0vh);
+    
+        padding-left: 9rem;
+    }
+
+    .slideshow-container {
+        max-width: 500px;
+        position: relative;
+        margin: auto;
+        width: 100%;  /* Make it responsive */
+        height: 300px;
+        margin-top: 40vw;
+    
+        
+      
+      display: flex;
+    
+      align-items: center; /* Vertically center */
+      margin-bottom: 0;
+
+    }
+
+    /* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: -35vw;
+  }
+  
+    
+   
+}
+
+
+@media (max-width:750px){
+
+    .slideshow-container {
+        
+      margin-bottom: 18rem;
+
+    }
+    
+  
+    
+   
+}
+
 

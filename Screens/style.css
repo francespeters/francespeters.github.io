@@ -1843,7 +1843,7 @@ p {
         margin: auto;
         margin-left: 20px;
         padding: 10px;
-        padding-top: 15px;
+        padding-top: 6px;
         padding-bottom: 15px;
         padding-left: 15px;
         padding-right: 15px;
@@ -1875,7 +1875,7 @@ p {
         margin: auto;
         margin-left: 0px;
         padding: 10px;
-        padding-left: 15px;
+        padding-left: 3px;
         padding-right: 15px;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -1904,7 +1904,7 @@ p {
     
         border-radius: 40px;
         margin: auto;
-        margin-left:25px;
+        margin-left:15px;
         padding: 10px;
         padding-left: 15px;
         padding-right: 15px;

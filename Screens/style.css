@@ -1788,3 +1788,24 @@ p {
     }
     
 }
+@media (max-width:500px){
+    .title {
+        font-family: "glodok", sans-serif;
+        font-weight: 100;
+        transform: scaleY(1.5);
+        color: #373632;
+        font-style: normal;
+        font-size: calc(6vw ); /* Adjust size dynamically based on viewport */
+        margin-top: calc(2vw); /* Adjust the margin-top */
+        position: relative;
+        padding-left: 0;
+        padding: 0;
+        text-align: center;
+        text-overflow: hidden;
+    
+    }
+    
+    
+    
+    
+}

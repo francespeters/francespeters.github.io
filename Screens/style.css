@@ -1805,6 +1805,15 @@ p {
 
 
 @media (max-width:500px){
+    #about.active{
+        position: relative;
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        top: -12vw;
+        
+    
+    }
     .title {
         font-family: "glodok", sans-serif;
         font-weight: 100;

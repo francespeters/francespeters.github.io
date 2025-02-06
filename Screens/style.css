@@ -355,7 +355,7 @@ hr {
     width: auto; /* Allow text to define width */
     height: 25px; /* Remove the 2px height restriction */
     border-radius: 20px; 
-    outline: 0px solid rgb(184, 184, 184); 
+    border: 1px solid rgb(184, 184, 184); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color:  #d9d9d9;
@@ -388,7 +388,7 @@ hr {
     height: 1.75vw; /* Remove the 2px height restriction */
     background-color: #EEEDE9; 
     border-radius: 20px; 
-    outline: 0px solid rgb(184, 184, 184); 
+    border: 1px solid rgb(184, 184, 184); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -417,7 +417,7 @@ hr {
     height: 1.75vw; /* Remove the 2px height restriction */
     background-color: #EEEDE9; 
     border-radius: 20px; 
-    outline: 0px solid black; 
+    border: 1px solid rgb(184, 184, 184); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -448,7 +448,7 @@ hr {
     height: 1.75vw; /* Remove the 2px height restriction */
     background-color: #EEEDE9; 
     border-radius: 20px; 
-    outline: 0px solid rgb(184, 184, 184); 
+    border: 1px solid rgb(184, 184, 184); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -492,7 +492,7 @@ hr {
     padding: calc(2.8vw);
     position: relative;
     border-radius: 20px; 
-    outline: 1px solid rgb(184, 184, 184); 
+    border: 1px solid rgb(184, 184, 184); 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
@@ -578,7 +578,7 @@ p {
     height: clamp(15px, 2vw, 20px);
     padding: clamp(5px, 2vw, 20px);
     background-color:  #dad8d2;    
-    outline: 1px solid rgb(184, 184, 184);
+    border: 1px solid rgb(184, 184, 184);
     color: #464540;
 
     border-radius: 20px; 
@@ -691,7 +691,7 @@ p {
     top: 4vw;
     margin-top: 1vw;
     border-radius: 20px; /* Rounded corners */
-    outline: 1px solid black; /* Green outline */
+    border: 1px solid black; /* Green outline */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -712,7 +712,7 @@ p {
     border-radius: 20px;
     padding:2%;
     height:auto;
-    outline: 1px solid black; /* Green outline */
+    border: 1px solid black; /* Green outline */
 
 
 }
@@ -792,7 +792,7 @@ p {
     margin-top: calc(1vw + 1vh); 
     grid-auto-rows: minmax(22.5vw, 20px);
     justify-content: center;
-    outline: 1px solid #b7b7b7
+    border: 1px solid #b7b7b7
 
     
 
@@ -976,7 +976,7 @@ p {
         height: 25px; /* Remove the 2px height restriction */
         background-color: #EEEDE9;
         border-radius: 20px; 
-        outline: 0px solid black; 
+        border: 1px solid black; 
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         
@@ -1009,7 +1009,7 @@ p {
         height: 1.75vw; /* Remove the 2px height restriction */
         background-color: #EEEDE9;
         border-radius: 20px; 
-        outline: 0px solid black; 
+        border: 1px solid rgb(184, 184, 184); 
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
        
@@ -1037,7 +1037,7 @@ p {
         height: 1.75vw; /* Remove the 2px height restriction */
         background-color: #EEEDE9;
         border-radius: 20px; 
-        outline: 0px solid black; 
+        border: 1px solid rgb(184, 184, 184); 
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     
@@ -1065,7 +1065,7 @@ p {
         height: 1.75vw; /* Remove the 2px height restriction */
         background-color: #EEEDE9;
         border-radius: 20px; 
-        outline: 0px solid black; 
+        border: 1px solid rgb(184, 184, 184); 
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
        
@@ -1124,7 +1124,7 @@ p {
         padding: calc(2.8vw);
         position: relative;
         border-radius: 20px; 
-        outline: 1px solid rgb(184, 184, 184); 
+        border: 1px solid rgb(184, 184, 184); 
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
         transition: transform 0.3s ease, box-shadow 0.3s ease; 
 
@@ -1430,7 +1430,7 @@ p {
         height: 25px; /* Remove the 2px height restriction */
         background-color: #EEEDE9;
         border-radius: 20px; 
-        outline: 0px solid rgb(184, 184, 184); 
+        border: 1px solid rgb(184, 184, 184); 
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     
@@ -1462,7 +1462,7 @@ p {
         width: clamp(75px, 3vw, 90px); /* Allow text to define width */
         height: 1.75vw; /* Remove the 2px height restriction */
         border-radius: 20px; 
-        outline: 0px solid rgb(184, 184, 184);  
+        border: 1px solid rgb(184, 184, 184);  
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         background-color: #EEEDE9;
@@ -1490,7 +1490,7 @@ p {
         height: 1.75vw; /* Remove the 2px height restriction */
         background-color: #EEEDE9;
         border-radius: 20px; 
-        outline: 0px solid rgb(184, 184, 184); 
+        border: 1px solid rgb(184, 184, 184); 
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     
@@ -1520,7 +1520,7 @@ p {
         height: 1.75vw; /* Remove the 2px height restriction */
         background-color: #EEEDE9;
         border-radius: 20px; 
-        outline: 0px solid rgb(184, 184, 184); 
+        border: 1px solid rgb(184, 184, 184); 
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     
@@ -1574,7 +1574,7 @@ p {
        background-color: #EEEDE9;
         padding: calc(2.8vw);
         position: relative;
-        outline: 1px solid rgb(184, 184, 184); 
+        border: 1px solid rgb(184, 184, 184); 
         border-radius: 20px; 
         
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
@@ -1691,7 +1691,7 @@ p {
         height: clamp(15px, 2vw, 20px);
         padding: clamp(10px, 2vw, 20px);
         background-color:  #dad8d2;    
-        outline: 1px solid rgb(184, 184, 184);
+        border: 1px solid rgb(184, 184, 184);
         color: #464540;
     
         border-radius: 20px; 
@@ -1820,8 +1820,19 @@ p {
     }
     
     .menu-bar{
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 0.5vw;
+        flex-wrap: nowrap;
+    
+        position: absolute;
+        border-bottom: 1px solid #b7b7b7;
+        margin-top: 0px;
+        width: calc(96vw);
+        height: 2vw;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* Helps distribute elements */
     }
     
     

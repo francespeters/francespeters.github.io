@@ -1951,7 +1951,7 @@ p {
 
 .con-links {
 
-    width: 75px; /* Set the width */
+    width: 50px; /* Set the width */
     height: 2px; /* Set the height */
     background-color: #EEEDE9; /* Light background color */
     padding: 20px;
@@ -1959,6 +1959,9 @@ p {
     
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
+    justify-self: center;
+    align-self: center;
+    place-self: center;
     text-align: center; /* Ensure multi-line text is centered */
     top: 4vw;
     margin-top: 1vw;
@@ -1974,6 +1977,8 @@ p {
     flex-direction: row; /* Stack the words vertically */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
+    place-self: center;
+    justify-self: center;
     gap: 10px;
     margin-right:1rem;
     

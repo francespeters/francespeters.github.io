@@ -1818,22 +1818,69 @@ p {
         margin-top: -60vw;
         
     }
+
+    .tab[data-tab-target="#portfo"] {
+        list-style-type: none;
+        width: clamp(75px, 3vw, 90px); /* Allow text to define width */
+        height: 1.75vw; /* Remove the 2px height restriction */
+        border-radius: 20px; 
+        border: 1px solid rgb(184, 184, 184);  
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-color: #EEEDE9;
     
-    .menu-bar{
-        margin-top: 0.5vw;
-        flex-wrap: nowrap;
+        display: flex; /* Enables flexbox */
+        justify-content: center; /* Centers text */
+        align-items: center; /* Centers text vertically */
+        
+        font-size: clamp(15px, 4.5vw, 24px);
+        font-family: 'HelveticaNeue-Thin';
     
-        position: absolute;
-        border-bottom: 1px solid #b7b7b7;
-        margin-top: 0px;
-        width: calc(96vw);
-        height: 2vw;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between; /* Helps distribute elements */
+        position: absolute; 
+        top: -4vw;
+    
+        border-radius: 40px;
+        margin: auto;
+        margin-left: min(-20px, 20px);
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 10px
+
     }
+    
+    .tab[data-tab-target="#about"] {
+        width: clamp(90px, 3vw, 120px); /* Allow text to define width */
+        height: 1.75vw; /* Remove the 2px height restriction */
+        background-color: #EEEDE9;
+        border-radius: 20px; 
+        border: 1px solid rgb(184, 184, 184); 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+        display: flex; /* Enables flexbox */
+        flex-direction: row;
+        justify-content: center; /* Centers text */
+        align-items: center; /* Centers text vertically */
+        
+        font-size: clamp(15px, 4.5vw, 24px);
+        font-family: 'HelveticaNeue-Thin';
+    
+        position: absolute; 
+        top: -4vw;
+        align-self: center;
+        border-radius: 40px;
+        margin: auto;
+        margin-left: 0px;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: min(-20px, 20px);
+        margin-top: 10px
+
+    }
+    
+    
     
     
     

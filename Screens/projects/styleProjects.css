@@ -13,14 +13,15 @@ iframe{
 
 /* Apply the custom font */
 body {
-    font-family: 'Helvetica'; /* Use the custom font */
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+    font-family: 'HelveticaNeue-Thin'; /* Use the custom font */
     overflow-x: hidden;
     background-color: #e3e2da;
-    display: inline;
-    justify-content: center;
+
+
     
-    width: 100vw;
-    padding: 0;
 }
 p{
     font-family: 'Helvetica' /* Use the custom font */
@@ -140,16 +141,20 @@ p{
 
 .info{
     width: 89vw; /* Set a max width if needed */
+    height: auto;
     min-height: 100px; /* Optional: Ensures a minimum height */
     background-color: #EEEDE9; /* Light background color */
     position: relative; /* Changed from absolute to relative */
+    margin: 0 auto;
     border-radius: 20px;
     margin-top: 30px;
     margin-bottom: 100px;
     padding: 20px; /* Add padding to space out content */
     display: flex;
+    place-self: center;
     flex-direction: column; /* Stack content inside */
     justify-self: center;
+    justify-content: center;
     
     
 
@@ -552,6 +557,26 @@ p{
     .info{
         padding-left: 10px;
         padding-right:10px;
+        justify-self: center;
+        align-self: center;
+        margin: 0 auto;
+
+        width: 89vw; /* Set a max width if needed */
+    height: auto;
+    min-height: 100px; /* Optional: Ensures a minimum height */
+    background-color: #EEEDE9; /* Light background color */
+    position: relative; /* Changed from absolute to relative */
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 20px; /* Add padding to space out content */
+    display: flex;
+
+    place-self: center;
+    flex-direction: column; /* Stack content inside */
+    justify-self: center;
+    justify-content: center;
     }
 
 }
@@ -619,3 +644,35 @@ p{
 
 
 
+@media (max-width:500px){
+    .info{
+        padding-left: 10px;
+        padding-right:10px;
+        justify-self: center;
+        align-self: center;
+        margin: 0 auto;
+
+            width: 89vw; /* Set a max width if needed */
+        height: auto;
+        min-height: 100px; /* Optional: Ensures a minimum height */
+        background-color: #EEEDE9; /* Light background color */
+        position: relative; /* Changed from absolute to relative */
+        margin: 0 auto;
+        border-radius: 20px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        padding: 20px; /* Add padding to space out content */
+        display: flex;
+        
+        place-self: center;
+        flex-direction: column; /* Stack content inside */
+        justify-self: center;
+        justify-content: center;
+    }
+
+    .sesh-title{
+        font-size: 35px;
+
+    }
+    
+}

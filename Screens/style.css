@@ -1813,7 +1813,34 @@ p {
 
     }
 
+    
+
     .more{
+        width: 60px;
+    height: clamp(15px, 2vw, 20px);
+    padding: clamp(5px, 2vw, 20px);
+    background-color:  #dad8d2;    
+    border: 1px solid rgb(184, 184, 184);
+    color: #464540;
+
+    border-radius: 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    box-sizing: border-box;
+    
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    
+    position: absolute;
+    bottom: -5vw;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: -80vw;
+
+
+
         border-radius: 20px;
         top:60px
         
@@ -1824,7 +1851,7 @@ p {
         color: #464540;
         top: 45px;
         left: 4vw;
-        font-size: 2vw;
+        font-size: 4vw;
         font-family: 'HelveticaNeue';
         line-height: -10;
     
@@ -1854,7 +1881,7 @@ p {
         margin: auto;
         margin-left: 0px;
         padding: 10px;
-        padding-top: 15px;
+        padding-top: 20px;
         padding-bottom: 15px;
         padding-left: 15px;
         padding-right: 15px;
@@ -1931,7 +1958,7 @@ p {
 
     }
     .menu-bar{
-        height: 6vw;
+        height: 8vw;
     }
     
     

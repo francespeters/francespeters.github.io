@@ -174,7 +174,7 @@ hr {
 .projects-container {
     padding-top: 3.5vw;
     
-    margin: 0px;
+    margin: 0 auto;
     display: flex;
     width: calc(96vw);
     height: auto;
@@ -183,8 +183,10 @@ hr {
     
     place-self: center;
     position: relative; 
-    margin-top: calc(1vw + 1vh);
+    margin-top: calc(1.5vw );
     border-radius: 20px;
+    justify-self: center;
+    align-self: center;
  
     
     justify-content: center;
@@ -193,22 +195,7 @@ hr {
     
 }
 
-.projects-container-about {
-    margin: 0px;
-    display: flex;
-    width: calc(83vw);
-    
-    background-color: black;
-    padding: 6.5vw;
-    padding-top: 3.5vw;
-    
-    border-radius: 20px;
-    gap: calc(2.5vw);
-    position: relative; 
-    margin-top: calc(20vw + 1vh); 
-    justify-content: center;
-    min-height: 255vw; /* Force longer container */
-}
+
 
 .menu-bar{
     flex-wrap: nowrap;
@@ -267,11 +254,12 @@ hr {
 }
 
 #about.active{
+    margin:0 auto;
     position: relative;
     display: flex;
     padding: 0;
     justify-content: center;
-    top: -15vw;
+    top: -24vw;
     margin-bottom: 0; /* Remove extra space */
     
 
@@ -314,6 +302,8 @@ hr {
     flex: 1; /* Allow text to take remaining space */
     font-size: clamp(12px, 2vw,24px); /* Responsive font size */
     line-height: 1.5; /* Improve readability */
+    font-family: 'Helvetica';
+    color: #464540;
     
     padding: 20px;
     border-radius: 8px;
@@ -605,7 +595,8 @@ p {
     bottom: -5vw;
     border-radius: 20px;
     margin: auto;
-    margin-top: -80vw;  
+    margin-top: -80vw;
+    
     
 }
 
@@ -614,6 +605,11 @@ p {
     font-family: 'HelveticaNeue-Thin';
 
 }
+
+
+
+
+
 
 .stacked-item{
     display: flex;
@@ -803,6 +799,10 @@ p {
 }
 
 
+
+
+
+
 @media (max-width: 1010px) {
     .mail{
         color:  #b5b3ad;    
@@ -839,7 +839,7 @@ p {
 
     .projects-container {
     
-        margin: 0px;
+        margin: 0 auto;
         display: flex;
         width: calc(83vw);
         min-width: 200px; /* Adjust based on your layout */
@@ -855,6 +855,8 @@ p {
         margin-top: calc(2vw + 1vh); 
         grid-auto-rows: minmax(22.5vw, 20px);
         justify-content: center;
+        justify-self: center;
+        align-self: center;
     
         
     }
@@ -1088,7 +1090,7 @@ p {
     }
     .projects-container {
     
-        margin: 0px;
+        margin: 0 auto;
         display: grid;
         width: calc(95vw);
         grid-template-columns: repeat(1, 1fr);
@@ -1105,6 +1107,8 @@ p {
         justify-content: center;
         align-items: center;
         min-height: 251vw; /* Force longer container */
+        justify-self: center;
+        align-self: center;
 
         
         
@@ -1289,7 +1293,7 @@ p {
 
     .projects-container {
     
-        margin: 0px;
+        margin: 0 auto;
         display: flex;
         width: calc(83vw);
         
@@ -1303,6 +1307,8 @@ p {
         margin-top: calc(20vw + 1vh); 
         justify-content: center;
         min-height: 255vw; /* Force longer container */
+        justify-self: center;
+        align-self: center;
     
         
     }
@@ -1537,7 +1543,7 @@ p {
     }
     .projects-container {
     
-        margin: 0px;
+        margin: 0 auto;
         display: grid;
         width: calc(95vw);
         grid-template-columns: repeat(1, 1fr);
@@ -1553,6 +1559,8 @@ p {
         grid-auto-rows: minmax(47vw, 20px);
         justify-content: center;
         align-items: center;
+        justify-self: center;
+        align-self: center;
         
         
     }
@@ -1566,8 +1574,9 @@ p {
        background-color: #EEEDE9;
         padding: calc(2.8vw);
         position: relative;
-        border-radius: 20px; 
         outline: 1px solid rgb(184, 184, 184); 
+        border-radius: 20px; 
+        
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
         transition: transform 0.3s ease, box-shadow 0.3s ease; 
 
@@ -1638,6 +1647,29 @@ p {
 }
 
 @media (max-width:650px){
+    .projects-container {
+    
+        margin: 0 auto;
+        display: grid;
+        width: calc(95vw);
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #EEEDE9;
+        padding: 0vw;
+        padding-top: 0vw;
+        padding-bottom: 0vw;
+        border-radius: 20px;
+        gap: calc(2.5vw);
+        place-self: center;
+        position: relative; 
+        margin-top: calc(1vw + 1vh); 
+        grid-auto-rows: minmax(47vw, 20px);
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        align-self: center;
+        
+        
+    }
     .mail{
         color:  #b5b3ad;    
         position: absolute;
@@ -1721,7 +1753,7 @@ p {
 }
 
 
-@media (min-width: 600px){
+@media (max-width: 600px){
     
     .more p{
         font-family: 'HelveticaNeue-Thin';
@@ -1750,7 +1782,7 @@ p {
         display: flex;
         padding: 0;
         justify-content: center;
-        top: -12vw;
+        top: -10vw;
         
     
     }

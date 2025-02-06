@@ -214,6 +214,7 @@ hr {
 }
 
 .mail{
+    cursor: pointer;
     color:  #b5b3ad;    
     position: absolute;
     left:91.5vw;
@@ -809,6 +810,7 @@ p {
 
 @media (max-width: 1010px) {
     .mail{
+        cursor: pointer;
         color:  #b5b3ad;    
         position: absolute;
         left:89vw;
@@ -1243,6 +1245,7 @@ p {
 
 @media (max-width: 850px) {
     .mail{
+        cursor: pointer;
         color:  #b5b3ad;    
         position: absolute;
         left:89vw;
@@ -1677,6 +1680,7 @@ p {
         
     }
     .mail{
+        cursor: pointer;
         color:  #b5b3ad;    
         position: absolute;
         left:86vw;

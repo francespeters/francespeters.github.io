@@ -1951,7 +1951,7 @@ p {
 
 .con-links {
 
-    width: 100px; /* Set the width */
+    width: 75px; /* Set the width */
     height: 2px; /* Set the height */
     background-color: #EEEDE9; /* Light background color */
     padding: 20px;
@@ -1966,6 +1966,18 @@ p {
     border: 1px solid black; /* Green outline */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.just-links{
+    display: flex;
+    flex-direction: row; /* Stack the words vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 10px;
+    margin-right:1rem;
+    
+
 
 }
     

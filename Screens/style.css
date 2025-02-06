@@ -1943,7 +1943,7 @@ p {
     
     
 .resImg{
-    width: 80vw;
+    width: 85vw;
     pointer-events: none;
     animation: 2s fadeInUp;
 
@@ -1951,7 +1951,7 @@ p {
 
 .con-links {
 
-    width: 150; /* Set the width */
+    width: 100; /* Set the width */
     height: 2px; /* Set the height */
     background-color: #EEEDE9; /* Light background color */
     padding: 20px;

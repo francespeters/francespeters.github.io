@@ -1841,7 +1841,7 @@ p {
     
         border-radius: 40px;
         margin: auto;
-        margin-left: 10px;
+        margin-left: 0px;
         padding: 10px;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -1872,13 +1872,13 @@ p {
         top: -4vw;
         align-self: center;
         border-radius: 40px;
-        margin: auto;
+        margin: 0 auto;
         padding: 10px;
         padding-left: 15px;
         padding-right: 15px;
         padding-top: 15px;
         padding-bottom: 15px;
-        margin-left:3px;
+        margin-left:-5px;
         margin-top: 10px;
         margin-bottom: 10px;
 
@@ -1910,13 +1910,15 @@ p {
         padding-right: 15px;
         padding-top: 15px;
         padding-bottom: 15px;
-        margin-left: 25px;
+        margin-left: 15px;
         margin-top: 10px;
         margin-bottom: 10px;
         left: 310px;
 
     }
-    
+    .menu-bar{
+        height: 2.5vw;
+    }
     
     
     

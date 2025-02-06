@@ -1875,8 +1875,45 @@ p {
         padding: 10px;
         padding-left: 15px;
         padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         margin-left: min(-20px, 20px);
-        margin-top: 10px
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+
+    }
+    .tab[data-tab-target="#res"] {
+        width: clamp(75px, 3vw, 90px);
+        height: 1.75vw; /* Remove the 2px height restriction */
+        background-color: #EEEDE9;
+        border-radius: 20px; 
+        border: 1px solid rgb(184, 184, 184); 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+        display: flex; /* Enables flexbox */
+        
+        font-size:  clamp(15px, 4.5vw, 24px);
+        font-family: 'HelveticaNeue-Thin';
+    
+        position: absolute; 
+        top: -4vw;
+    
+        border-radius: 40px;
+        margin: auto;
+        margin-left: min(-35px, 10px);
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-left: min(-20px, 20px);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        left: 310px;
 
     }
     

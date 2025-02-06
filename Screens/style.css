@@ -1951,7 +1951,7 @@ p {
 
 .con-links {
 
-    width: 100; /* Set the width */
+    width: 100px; /* Set the width */
     height: 2px; /* Set the height */
     background-color: #EEEDE9; /* Light background color */
     padding: 20px;

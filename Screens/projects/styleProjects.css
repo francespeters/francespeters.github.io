@@ -684,7 +684,7 @@ p{
         display: flex; /* Enables flexbox */
         justify-content: center; /* Centers items horizontally */
         align-items: center; /* Centers items vertically (if needed) */
-        gap: 200px; /* Adds space between items */
+        gap: 50px; /* Adds space between items */
         font-size: 16px;
         flex-direction: row; /* Stack the words vertically */
         margin-top: -20px;

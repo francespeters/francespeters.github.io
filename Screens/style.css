@@ -1798,7 +1798,7 @@ p {
         transform: scaleY(1.5);
         color: #373632;
         font-style: normal;
-        font-size: 7vw; /* Adjust size dynamically based on viewport */
+        font-size: 9vw; /* Adjust size dynamically based on viewport */
         margin-top: calc(2vw); /* Adjust the margin-top */
         position: relative;
         padding-left: 0;

@@ -1821,7 +1821,7 @@ p {
         padding: 15px;
     
         border-radius: 20px;
-        top:420px;
+        top:400px;
         
     }
 
@@ -1942,5 +1942,11 @@ p {
     
     
     
+.resImg{
+    width: 70vw;
+    pointer-events: none;
+    animation: 2s fadeInUp;
+
+}
     
 }

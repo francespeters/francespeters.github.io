@@ -481,6 +481,7 @@ hr {
 
 
 .project-item {
+    cursor: pointer;
     animation: 2s fadeInUp;
 
     flex: 5 1 200px; 
@@ -545,6 +546,7 @@ hr {
 }
 
 .more:hover {
+    
     transform: scale(1.05); /* Slightly enlarge on hover */
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
 }
@@ -573,6 +575,7 @@ p {
 }
 
 .more{
+    cursor: pointer;
 
     width: 60px;
     height: clamp(15px, 2vw, 20px);
@@ -1753,11 +1756,11 @@ p {
 }
 
 
-@media (max-width: 600px){
+@media (min-width: 600px){
     
     .more p{
         font-family: 'HelveticaNeue-Thin';
-        font-size: clamp(18px, 1.5vw, 20px);
+        font-size: clamp(18px, 1.5vw, 25px);
         
     }
     #about.active{

@@ -18,7 +18,7 @@ body {
     background-color: #e3e2da;
     display: inline;
     justify-content: center;
-    align-content: center;
+    
     width: 100vw;
     padding: 0;
 }
@@ -534,8 +534,9 @@ p{
 @media (max-width:1000px){
     .sesh-sub {
         width: 90vw;
-        align-self: center;
+        place-self: center;
         justify-self: center;
+        align-self: center;
         display: flex; /* Enables flexbox */
         justify-content: center; /* Centers items horizontally */
         align-items: center; /* Centers items vertically (if needed) */
@@ -615,5 +616,6 @@ p{
     
    
 }
+
 
 

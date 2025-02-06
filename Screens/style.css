@@ -1788,6 +1788,9 @@ p {
     }
     
 }
+
+
+
 @media (max-width:500px){
     .title {
         font-family: "glodok", sans-serif;
@@ -1804,7 +1807,22 @@ p {
         text-overflow: hidden;
     
     }
+
+    .projects-container{
+        border-radius: 25px;
+
+    }
+
+    .more{
+        border-radius: 20px;
+        margin-top: -60vw;
+        
+    }
     
+    .menu-bar{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
     
     
     

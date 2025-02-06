@@ -1798,7 +1798,7 @@ p {
         transform: scaleY(1.5);
         color: #373632;
         font-style: normal;
-        font-size: calc(6vw ); /* Adjust size dynamically based on viewport */
+        font-size: 7vw; /* Adjust size dynamically based on viewport */
         margin-top: calc(2vw); /* Adjust the margin-top */
         position: relative;
         padding-left: 0;
@@ -1951,11 +1951,12 @@ p {
 
 .con-links {
 
-    width: 50px; /* Set the width */
+    width: 60px; /* Set the width */
     height: 2px; /* Set the height */
     background-color: #EEEDE9; /* Light background color */
     padding: 20px;
     display: flex;
+    font-size: 16px;
     
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
@@ -1973,6 +1974,7 @@ p {
 }
 
 .just-links{
+    animation: 2s fadeInUp;
     display: flex;
     flex-direction: row; /* Stack the words vertically */
     justify-content: center; /* Center horizontally */

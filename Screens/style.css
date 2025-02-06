@@ -1815,7 +1815,7 @@ p {
 
     .more{
         border-radius: 20px;
-        margin-top: -100vw;
+        top:90vw;
         
     }
 
@@ -1920,7 +1920,7 @@ p {
 
     }
     .menu-bar{
-        height: 3vw;
+        height: 4vw;
     }
     
     

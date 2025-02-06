@@ -578,15 +578,17 @@ p {
 
 .more{
     cursor: pointer;
+    
 
     width: 60px;
     height: clamp(15px, 2vw, 20px);
-    padding: clamp(5px, 2vw, 20px);
+    padding:clamp(10px, 2vw, 20px);
+    padding-left: clamp(10px, 3vw, 40px);
+    padding-right: clamp(10px, 3vw, 40px);
     background-color:  #dad8d2;    
     border: 1px solid rgb(184, 184, 184);
     color: #464540;
 
-    border-radius: 20px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
@@ -595,12 +597,10 @@ p {
     justify-content: center;
     align-items: center;
     position: absolute; 
-    padding-left: 15px;
-    padding-right: 15px;
     
     position: absolute;
     bottom: -5vw;
-    border-radius: 20px;
+    border-radius: 25px;
     margin: auto;
     margin-top: -80vw;
     

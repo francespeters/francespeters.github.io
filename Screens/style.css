@@ -1815,8 +1815,19 @@ p {
 
     .more{
         border-radius: 20px;
-        top:90vw;
+        top:60px
         
+    }
+
+    #pro-title {
+        margin: 0px; /* Center if the parent has defined width/height */
+        color: #464540;
+        top: 45px;
+        left: 4vw;
+        font-size: 2vw;
+        font-family: 'HelveticaNeue';
+        line-height: -10;
+    
     }
 
     .tab[data-tab-target="#portfo"] {
@@ -1847,7 +1858,7 @@ p {
         padding-bottom: 15px;
         padding-left: 15px;
         padding-right: 15px;
-        margin-top: 10px;
+        margin-top: 15px;
         left:140px;
 
     }
@@ -1920,7 +1931,7 @@ p {
 
     }
     .menu-bar{
-        height: 4vw;
+        height: 6vw;
     }
     
     

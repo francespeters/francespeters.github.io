@@ -674,5 +674,27 @@ p{
         font-size: 35px;
 
     }
+
+    .sesh-sub {
+    
+        color: #373632;
+        width: 90vw;
+        align-self: center;
+        justify-self: center;
+        display: flex; /* Enables flexbox */
+        justify-content: center; /* Centers items horizontally */
+        align-items: center; /* Centers items vertically (if needed) */
+        gap: 200px; /* Adds space between items */
+        font-size: 16px;
+        flex-direction: row; /* Stack the words vertically */
+        margin-top: -20px;
+        padding-left: 50px;
+    
+    
+    
+    
+    }
+
+    
     
 }

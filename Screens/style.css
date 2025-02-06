@@ -1988,8 +1988,12 @@ p {
 
 }
 
-.linkedin-link{
+#linkedin-link{
     font-size: 16px;
+}
+
+.mail{
+    left:110vw;
 }
     
 }

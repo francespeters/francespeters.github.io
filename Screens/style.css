@@ -1943,9 +1943,29 @@ p {
     
     
 .resImg{
-    width: 70vw;
+    width: 80vw;
     pointer-events: none;
     animation: 2s fadeInUp;
+
+}
+
+.con-links {
+
+    width: 150; /* Set the width */
+    height: 2px; /* Set the height */
+    background-color: #EEEDE9; /* Light background color */
+    padding: 20px;
+    display: flex;
+    
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Ensure multi-line text is centered */
+    top: 4vw;
+    margin-top: 1vw;
+    border-radius: 20px; /* Rounded corners */
+    border: 1px solid black; /* Green outline */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
 }
     

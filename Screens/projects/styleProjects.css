@@ -37,6 +37,12 @@ p{
     font-size: 25px;
 }
 
+.video{
+    animation: 2s fadeInUp;
+    width:45vw;
+    height:26vw;
+    align-self: center;
+}
 
 
 
@@ -583,6 +589,12 @@ p{
 }
 
 @media (max-width:650px){
+    .video{
+        animation: 2s fadeInUp;
+        width:70vw;
+        height:40vw;
+        align-self: center;
+    }
     .mohi-title {
         color: #373632;
         font-family: 'HelveticaNeue-Thin';

@@ -1811,9 +1811,17 @@ p {
         padding: 0;
         justify-content: center;
         top: 0vw;
-        margin-top: 15vw;
+        margin-top: 19vw;
         
     
+    }
+
+   
+        
+    
+    }
+    .text-p{
+        font-size: 16px;
     }
     .title {
         font-family: "glodok", sans-serif;

@@ -1810,7 +1810,7 @@ p {
         display: flex;
         padding: 0;
         justify-content: center;
-        top: 0vw;
+        top: -12vw;
         
     
     }
@@ -2023,7 +2023,7 @@ p {
     justify-content: right; /* Center horizontally */
     width: 40%;
     margin-left: 50%;
-    margin-top: -80px;
+    margin-top: -120px;
     background-color: #f0f0f0; /* Light background color */
     border-radius: 20px;
     padding:2%;

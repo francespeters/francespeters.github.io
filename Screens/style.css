@@ -1833,6 +1833,7 @@ p {
 
     .projects-container{
         border-radius: 25px;
+        overflow: hidden;
 
     }
 

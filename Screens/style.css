@@ -2017,6 +2017,7 @@ p {
 
 .mail{
     left:110vw;
+    overflow: hidden;
 }
 
 .abtMe-container{

@@ -1804,7 +1804,7 @@ p {
 
 
 
-@media (max-width:450px){
+@media (max-width:460px){
     #about.active{
         position: relative;
         display: flex;
@@ -1845,7 +1845,7 @@ p {
         padding: 15px;
     
         border-radius: 20px;
-        top:430px;
+        top:425px;
         
     }
 

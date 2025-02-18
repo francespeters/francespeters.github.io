@@ -1804,7 +1804,7 @@ p {
 
 
 
-@media (max-width:495px){
+@media (max-width:499px){
     #about.active{
         position: relative;
         display: flex;
@@ -1854,6 +1854,7 @@ p {
         margin: 0px; /* Center if the parent has defined width/height */
         color: #464540;
         top: 20px;
+        padding-bottom: 20px;
         left: 4vw;
         font-size: 4vw;
         font-family: 'HelveticaNeue';

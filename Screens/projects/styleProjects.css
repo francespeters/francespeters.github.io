@@ -658,10 +658,6 @@ p{
 
 
 @media (max-width:500px){
-    body{
-        overflow: hidden;
-
-    }
     
     .info{
         padding-left: 10px;

@@ -2057,7 +2057,7 @@ p {
     }
 
     .project-item{
-        margin-top: calc(30.75vw);
+        margin-top: calc(31.75vw);
     }
 
     
@@ -2186,6 +2186,7 @@ p {
     }
     .menu-bar{
         height: 8vw;
+        margin-top: -285vw;
     }
     
     

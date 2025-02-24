@@ -183,6 +183,17 @@ p{
     align-self: center;
     
 }
+.webImg {
+    animation: 2s fadeInUp;
+    padding-bottom: 20px;
+    
+    width: 70vw; /* Adjust as needed */
+    height: auto;
+    display: block; /* Makes sure it behaves like a block element */
+    margin-left: 10vw; /* Aligns the left side of the image to the container */
+    align-self: center;
+    
+}
 
 .imgMarImg{
     animation: 2s fadeInUp;

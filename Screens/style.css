@@ -2052,7 +2052,7 @@ p {
     .projects-container{
         border-radius: 25px;
         overflow: hidden;
-        min-height: 380vw;
+        min-height: 375vw;
 
     }
 
@@ -2186,7 +2186,7 @@ p {
     }
     .menu-bar{
         height: 8vw;
-        margin-top: -285vw;
+        margin-top: -215vw;
     }
     
     

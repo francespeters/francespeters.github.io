@@ -2052,12 +2052,12 @@ p {
     .projects-container{
         border-radius: 25px;
         overflow: hidden;
-        min-height: 350vw;
+        min-height: 310vw;
 
     }
 
     .project-item{
-        margin-top: calc(31.75vw);
+        margin-top: calc(35.75vw);
     }
 
     

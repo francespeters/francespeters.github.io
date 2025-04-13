@@ -1101,11 +1101,11 @@ p {
         gap: calc(2.5vw);
         place-self: center;
         position: relative; 
-        margin-top: calc(1vw + 1vh); 
+        margin-top: calc(10vw + 1vh); 
         grid-auto-rows: minmax(47vw, 20px);
         justify-content: center;
         align-items: center;
-        min-height: 296vw; /* Force longer container */
+        min-height: vw; /* Force longer container */
         justify-self: center;
         align-self: center;
 
@@ -1551,7 +1551,7 @@ p {
         grid-auto-rows: minmax(47vw, 20px);
         justify-content: center;
         align-items: center;
-        min-height: 296vw; /* Force longer container */
+        min-height: 310vw; /* Force longer container */
         justify-self: center;
         align-self: center;
     

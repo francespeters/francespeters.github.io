@@ -172,7 +172,8 @@ hr {
 
 
 .projects-container {
-    padding-top: 3.5vw;
+    display: flex;
+    flex-direction: column;
     
     margin: 0 auto;
     display: flex;
@@ -189,7 +190,7 @@ hr {
     align-self: center;
  
     
-    justify-content: center;
+    
     
 
     
@@ -198,28 +199,24 @@ hr {
 
 
 .menu-bar{
-    flex-wrap: nowrap;
-    
-    position: absolute;
     border-bottom: 1px solid #b7b7b7;
-    margin-top: 0px;
-    width: calc(96vw);
-    height: 2vw;
+    width: 100%;
+    height: auto;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+
     display: flex;
-    flex-direction: row;
-    justify-content: space-between; /* Helps distribute elements */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Tabs left, mail right */
+    
 
 }
 
 .mail{
     cursor: pointer;
     color:  #b5b3ad;    
-    position: absolute;
-    left:91.5vw;
-    top:-20px;
     z-index: 10;
+    padding-right: 3vw;
     
 }
 
@@ -326,12 +323,10 @@ hr {
     margin-top: calc(2vw + 1vh); 
     position: relative; 
     display: flex;
-    padding: 0px;
+    
     justify-content: center;
     place-self: center;
-    margin-bottom: 3vw;
-    margin-top: 5vw;
-    padding-bottom: -1vw;
+    
     font-family: 'HelveticaNeue-Thin';
     
 
@@ -339,15 +334,12 @@ hr {
 
 
 .tabs{
-    
+    width: auto;
+    height: auto;
     list-style-type: none;
+    gap: 15px; 
     display: flex;
     flex-direction: row;
-    margin: 0;
-    padding: 0;
-    justify-content: space-around;
-    margin-top: -3vw;
-    position: relative;
     font-family: 'Helvetica Neue';
 }
 
@@ -369,25 +361,17 @@ hr {
     
     font-size: 24px;
     font-family: 'HelveticaNeue-Thin';
-    letter-spacing: -1px;
-
-    position: absolute; 
-    top: 3vw;
 
     border-radius: 40px;
-    margin: auto;
     padding: 10px;
-    margin-top: 5px;
         
    
-    left: 10px;
-
 }
 
 
 .tab[data-tab-target="#portfo"] {
     list-style-type: none;
-    width: clamp(75px, 3vw, 90px); /* Allow text to define width */
+    width: clamp(90px, 7vw, 7vw); /* Allow text to define width */    
     height: 1.75vw; /* Remove the 2px height restriction */
     background-color: #EEEDE9; 
     border-radius: 20px; 
@@ -403,20 +387,14 @@ hr {
     font-family: 'HelveticaNeue-Thin';
     font-weight: light;
     color: #464540;
-    letter-spacing: -1px;
-    position: absolute; 
-    top: 0.75vw;
 
     border-radius: 40px;
-    margin: auto;
-    padding: 10px;
-    padding-left: clamp(5px, 3vw, 15px);
-    padding-right: clamp(5px, 3vw, 15px);
-    left: 170px;
+    
+    
 }
 
 .tab[data-tab-target="#about"] {
-    width: clamp(90px, 3vw, 120px); /* Allow text to define width */
+    width: clamp(90px, 7vw, 7vw); /* Allow text to define width */
     height: 1.75vw; /* Remove the 2px height restriction */
     background-color: #EEEDE9; 
     border-radius: 20px; 
@@ -433,21 +411,14 @@ hr {
     
 
     color: #464540;
-    letter-spacing: -1px;
 
-    position: absolute; 
-    top: 0.75vw;
 
     border-radius: 40px;
-    margin: auto;
-    padding: 10px;
-    padding-left: clamp(5px, 3vw, 15px);
-    padding-right: clamp(5px, 3vw, 15px);
-    left: 30px;
+    
 }
 
 .tab[data-tab-target="#res"] {
-    width: clamp(75px, 3vw, 90px); /* Allow text to define width */
+    width: clamp(90px, 7vw, 7vw); /* Allow text to define width */    
     height: 1.75vw; /* Remove the 2px height restriction */
     background-color: #EEEDE9; 
     border-radius: 20px; 
@@ -462,17 +433,12 @@ hr {
     font-size: 24px;
     font-family: 'HelveticaNeue-Thin';
     color: #464540;
-    letter-spacing: -1px;
+    
 
-    position: absolute; 
-    top: 0.75vw;
+    
 
     border-radius: 40px;
-    margin: auto;
-    padding: 10px;
-    padding-left: clamp(5px, 3vw, 15px);
-    padding-right: clamp(5px, 3vw, 15px);
-    left: 295px;
+    
 }
 
 .tab.active{
@@ -1088,7 +1054,6 @@ p {
 
     }
     .projects-container {
-    
         margin: 0 auto;
         display: grid;
         width: calc(95vw);

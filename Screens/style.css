@@ -47,15 +47,31 @@ body {
 
 .menu {
     position: absolute;
-    top: 50%; /* Adjust to move it up/down */
-    left: 10%; /* Adjust to move it left/right */
     
     display: flex;
     flex-direction: row; /* Stack items vertically */
-    align-items: flex-start; /* Align to the left */
-    gap: 30px; /* Adjust space between items */
+    align-items: center; /* Align to the left */
     
 }
+
+.contact-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding-right: 3vw;
+}
+
+
+
+.mail{
+    cursor: pointer;
+    color:  #b5b3ad;    
+    z-index: 10;
+    padding-right: 3vw;
+    
+}
+
 /* Background video styling */
 .background-image {
     position: absolute;
@@ -207,19 +223,11 @@ hr {
     border-top-right-radius: 20px;
 
     display: flex;
-    align-items: center; /* Vertically center items */
     justify-content: space-between; /* Tabs left, mail right */
     
 
 }
 
-.mail{
-    cursor: pointer;
-    color:  #b5b3ad;    
-    z-index: 10;
-    padding-right: 3vw;
-    
-}
 
 
 [data-tab-content]{
@@ -335,6 +343,8 @@ hr {
     display: flex;
     flex-direction: row;
     font-family: 'Helvetica Neue';
+    margin-left: 0;
+    margin-right: 2vw;
 }
 
 
@@ -1002,9 +1012,31 @@ p {
     
 
 }
+
+
     
 
     
     
 }
 
+@media (max-width: 600px) {
+    /* Hide large screen icons */
+    .contact-icons {
+        display: none;
+    }
+    
+    
+
+    .tabs{
+        padding-right: 40px;
+        align-self: center;
+    }
+
+    .menu-bar{
+        flex-direction: column;
+        
+    }
+
+    
+}

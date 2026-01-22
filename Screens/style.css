@@ -210,19 +210,16 @@ hr {
     flex-direction: column;
     
     display: flex;
-    width: calc(96vw);
+    width: 95%;
     height: auto;
     
     background-color: #EEEDE9;
     
-    place-self: center;
     position: relative; 
     margin-top: calc(1.5vw );
     border-radius: 20px;
     justify-self: center;
-    align-self: center;
     align-items: center;
-
     margin-bottom: 2vw;
     
 

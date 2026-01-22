@@ -220,14 +220,16 @@ hr {
     border-radius: 20px;
     justify-self: center;
     align-self: center;
+    align-items: center;
 
-
- 
     margin-bottom: 2vw;
     
-    
 
-    
+}
+.tab-content{
+    align-self: center;
+    align-items: center;
+
 }
 
 

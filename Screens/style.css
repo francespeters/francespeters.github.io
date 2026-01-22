@@ -40,6 +40,7 @@ span {
 /* Apply the custom font */
 body {
     justify-content: center;
+    align-items: center;
     margin: auto;
     padding: 0;
     font-family: 'HelveticaNeue-Thin'; /* Use the custom font */

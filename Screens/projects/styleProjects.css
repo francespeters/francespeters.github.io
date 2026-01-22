@@ -183,6 +183,15 @@ p{
     align-self: center;
     
 }
+.seshImgs {
+    animation: 2s fadeInUp;
+    
+    width: 60vw; /* Adjust as needed */
+    height: auto;
+    display: block; /* Makes sure it behaves like a block element */
+    margin-left: 0vw; /* Aligns the left side of the image to the container */
+    
+}
 .webImg {
     animation: 2s fadeInUp;
     padding-bottom: 20px;

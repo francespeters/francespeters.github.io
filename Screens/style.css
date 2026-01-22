@@ -513,6 +513,16 @@ hr {
     bottom:1vw;
     
 }
+.seshImgs{
+    width:10vw;
+    height:auto;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 13vw;
+    bottom:1vw;
+    
+}
 .mohiImg{
     width:34vw;
     height:auto;

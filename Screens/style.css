@@ -544,6 +544,17 @@ hr {
     transform: rotate(-10deg);
 }
 
+.TSKImg{
+    width:22vw;
+    height:auto;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 18vw;
+    bottom:1vw;
+    transform: rotate(80);
+}
+
 .desImg {
     width:20vw;
     height:20vw;
@@ -1000,6 +1011,15 @@ p {
         left: 38vw;
         bottom:5vw;
         transform: rotate(-10deg);
+    }
+        .TSKImg{
+        width:40vw;
+        height:auto;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        left: 38vw;
+        bottom:5vw;
     }
     .desImg {
         width:40vw;

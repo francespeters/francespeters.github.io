@@ -60,9 +60,20 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
     padding-right: 3vw;
 }
+
+.contact-icons-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    place-self: center;
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+}
+
 
 
 
@@ -70,8 +81,12 @@ body {
     cursor: pointer;
     color:  #b5b3ad;    
     z-index: 10;
-    padding-right: 3vw;
     
+}
+
+.mail:hover {
+    transform: scale(1.1); 
+
 }
 
 /* Background video styling */
@@ -271,8 +286,11 @@ hr {
 
 
 
+.abt-mobile{
+    display: none;
+}
 
-.abt-con {
+.abt-desktop{
     animation: 2s fadeInUp;
     display: flex;
     flex-direction: row; /* Side by side */
@@ -283,10 +301,14 @@ hr {
     margin: 0 auto; /* Center container */
     height: auto; /* Allow height to adjust to content */
     padding: 20px; /* Add padding for spacing */
-    gap: 2vw; /* Space between image and text */
+    gap: 4vw; /* Space between image and text */
     margin-top: 0; /* Reset negative margin */
     border-radius: 20px;
     min-height: auto; /* Remove forced minimum height */
+}
+
+.abt-desktop .text{
+    padding-top: 4vw;;
 
 }
 
@@ -297,20 +319,28 @@ hr {
     width: 40vw; /* Responsive width */
     height: auto; /* Maintain aspect ratio */
     pointer-events: none;
-    border-radius: 40px;
+    border-radius: 10px;
     
+}
+
+.me-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+    padding-right: 1vw;
+
 }
 
 /* Text Styling */
 .text-p {
     flex: 1; /* Allow text to take remaining space */
     font-weight: 200;
-    font-size: clamp(12px, 2vw,24px); /* Responsive font size */
+    font-size: 18px;
     line-height: 1.5; /* Improve readability */
     font-family: 'Helvetica';
     color: #464540;
     margin-top: 2vw;
-    padding: 20px;
     border-radius: 8px;
 }
 
@@ -355,10 +385,10 @@ hr {
     cursor: pointer;
     border: 1px solid rgb(184, 184, 184);
     width: auto; /* Allow text to define width */
+
     height: 25px; /* Remove the 2px height restriction */
     border-radius: 20px; 
     border: 1px solid rgb(184, 184, 184); 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color:  #d9d9d9;
 
@@ -380,19 +410,18 @@ hr {
 
 .tab[data-tab-target="#portfo"] {
     list-style-type: none;
-    width: auto; 
+    width: auto;
+     
     height: 1.75vw; /* Remove the 2px height restriction */
     background-color: #EEEDE9; 
     border-radius: 20px; 
     border: 1px solid rgb(184, 184, 184); 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
     display: flex; /* Enables flexbox */
     justify-content: center; /* Centers text */
     align-items: center; /* Centers text vertically */
     
-    font-size: 24px;
     font-family: 'HelveticaNeue-Thin';
     font-weight: light;
     color: #464540;
@@ -404,11 +433,11 @@ hr {
 
 .tab[data-tab-target="#about"] {
     width: auto; 
+    min-width: 100px; /* Minimum width for better appearance */
     height: 1.75vw; /* Remove the 2px height restriction */
     background-color: #EEEDE9; 
     border-radius: 20px; 
     border: 1px solid rgb(184, 184, 184); 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
     display: flex; /* Enables flexbox */
@@ -432,14 +461,12 @@ hr {
     background-color: #EEEDE9; 
     border-radius: 20px; 
     border: 1px solid rgb(184, 184, 184); 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
     display: flex; /* Enables flexbox */
     justify-content: center; /* Centers text */
     align-items: center; /* Centers text vertically */
     
-    font-size: 24px;
     font-family: 'HelveticaNeue-Thin';
     color: #464540;
     
@@ -574,7 +601,6 @@ p {
     border: 1px solid rgb(184, 184, 184);
     color: #464540;
 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;
     box-sizing: border-box;
@@ -1024,6 +1050,10 @@ p {
 }
 
 @media (max-width: 600px) {
+    .more{
+        display: none;
+    }
+
     /* Hide large screen icons */
     .contact-icons {
         display: none;
@@ -1032,7 +1062,7 @@ p {
     
 
     .tabs{
-        padding-right: 40px;
+        padding-right: 30px;
         align-self: center;
     }
 
@@ -1041,5 +1071,39 @@ p {
         
     }
 
+    .tab{
+        padding-left: clamp(12px, 1vw, 16px);        
+        padding-right: clamp(12px, 1vw, 16px);       
+        
+        padding-top: clamp(17px, 1vw, 10px);        
+        padding-bottom: clamp(17px, 1vw, 10px); 
+    }
+
+    .contact-icons-bottom{
+        gap: 20px;
+    }
+
+    .abt-mobile{
+    display: block;  
+    }
+
+    .abt-desktop{
+        display: none;
+    }
+
     
+
+    
+}
+
+@media (max-width: 430px) {
+    .tabs{
+        padding-right: 30px;
+        align-self: center;
+        gap: 5px; 
+    }
+
+    .title{
+        font-size: clamp(20px, 7vw + 1vh, 72px);    
+    }
 }

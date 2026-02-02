@@ -567,6 +567,19 @@ hr {
     left:23vw;
 }
 
+.desImg1{
+    
+    width:25vw;
+    height:auto;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom:3vw;
+    border-radius: 15px;
+    left:17vw;
+
+}
+
 .marImg {
     width:20vw;
     height:20vw;
@@ -1031,6 +1044,19 @@ p {
         bottom:2.5vw;
         border-radius: 15px;
         left:48vw;
+    }
+
+    .desImg1{
+    
+    width:52vw;
+    height:auto;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom:6vw;
+    border-radius: 15px;
+    left:35vw;
+
     }
 
     .more{

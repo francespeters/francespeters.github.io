@@ -155,12 +155,13 @@ p{
     border-radius: 20px;
     margin-top: 30px;
     margin-bottom: 100px;
-    padding: 20px; /* Add padding to space out content */
     display: flex;
     place-self: center;
     flex-direction: column; /* Stack content inside */
     justify-self: center;
     justify-content: center;
+    padding-bottom: 4vw;
+    padding-top: 2vw;
     
     
 
@@ -283,15 +284,14 @@ p{
     
     display: flex;
     flex-direction: column;
-    padding: 0;
-    margin: 0;
+    
     
 }
 
 .overview-title{animation: 2s fadeInUp;
     color: #373632;
     margin: auto;
-    align-self: center;
+    justify-content: center;
     font-size: 25px;
     margin-bottom: 16px; /* Reduce space between */
     width:70vw
@@ -299,33 +299,30 @@ p{
 }
 .overview{
     color: #373632;
-    margin: auto;
-
-    align-self: left;
-    font-size: 18px;
-    width: 1000px;
     display: flex;
-    flex-direction: column; /* Stack items */
+    flex-direction: column;
+    font-size: 18px;
+    width: 89vw;
     padding-bottom: 20px; /* Add space below */
 
 
 }
 .overview p {
+    display: block;
+
     animation: 2s fadeInUp;
     color: #373632;
-    margin: auto;
-    justify-self: center;
-
     padding: 0; /* Remove any padding */
     line-height: 1.75; /* Adjust line spacing for readability */
     max-width: 100%; /* Prevent going beyond the screen */
     word-wrap: break-word; /* Ensure long words wrap correctly */
     width: 70vw;
-    margin-left: 0em;
 }
 
 
 .overview2 p {
+        display: block;
+
     animation: 2s fadeInUp;
     color: #373632;
     margin: auto;
@@ -335,7 +332,6 @@ p{
     line-height: 1.75; /* Adjust line spacing for readability */
     max-width: 100%; /* Prevent going beyond the screen */
     word-wrap: break-word; /* Ensure long words wrap correctly */
-    width: 70vw;
     align-self: center;
 
 }
@@ -633,6 +629,15 @@ p{
     flex-direction: column; /* Stack content inside */
     justify-self: center;
     justify-content: center;
+    }
+
+    .DesignIMGs-container{
+        display: grid;
+    }
+
+    .DesignIMGs{
+        width: 80vw;
+      
     }
 
 }

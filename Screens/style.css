@@ -533,6 +533,17 @@ hr {
     bottom:1vw;
     transform: rotate(-10deg);
 }
+
+.mohiImg1{
+    width:28vw;
+    height:auto;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 16vw;
+    bottom:1vw;
+    transform: rotate(-10deg);
+}
 .webImg{
     width:25vw;
     height:auto;
@@ -996,13 +1007,13 @@ p {
     
 
     .seshImg{
-        width:70vw;
+        width:57vw;
         height:auto;
         position: absolute;
         justify-content: center;
         align-items: center;
-        left: 22vw;
-        bottom:0vw;
+        left: 30vw;
+        bottom:3.5vw;
     }
     .mohiImg{
         width:70vw;
@@ -1012,6 +1023,17 @@ p {
         align-items: center;
         left: 26vw;
         bottom:0vw;
+        border-radius: 15px;
+        transform: rotate(-10deg); /* Rotates the image by 10 degrees */
+    }
+    .mohiImg1{
+        width:60vw;
+        height:auto;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        left: 30vw;
+        bottom:2vw;
         border-radius: 15px;
         transform: rotate(-10deg); /* Rotates the image by 10 degrees */
     }

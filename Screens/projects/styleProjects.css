@@ -766,4 +766,20 @@ p{
         width: 90vw;
         align-self: center;
         justify-self: center;
-        display: flex; /* Enables flexbo
+        display: flex; /* Enables flexbox */
+        justify-content: center; /* Centers items horizontally */
+        align-items: center; /* Centers items vertically (if needed) */
+        gap: 50px; /* Adds space between items */
+        font-size: 16px;
+        flex-direction: row; /* Stack the words vertically */
+        margin-top: -20px;
+        padding-left: 50px;
+    
+    
+    
+    
+    }
+
+    
+    
+}
